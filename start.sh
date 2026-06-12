@@ -198,7 +198,7 @@ start_ubuntu() {
     echo "   可用空间: ${AVAIL_GB}G"
 
     cat > "$UBUNTU_PATH/Dockerfile" << 'EOF'
-FROM ubuntu:22.04
+FROM ubuntu:26.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
